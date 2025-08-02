@@ -40,7 +40,7 @@ export default function LetsConnect() {
 
   return (
     <div className="bg-[#fdf3d6] min-h-screen p-6 sm:p-10">
-      <h2 className="text-3xl font-semibold text-green-800 text-center mb-2">Let's Connect</h2>
+      <h2 className="text-3xl font-semibold text-green-800 text-center mb-2">Lets Connect</h2>
       <p className="text-center text-gray-700 mb-10 max-w-2xl mx-auto">
         We are here to help you on your wellness journey. Reach out to us for any questions,
         product inquiries, or personalized advice.
@@ -126,4 +126,5 @@ export default function LetsConnect() {
     </div>
   );
 }
+
 
