@@ -16,7 +16,7 @@ const PrivacyPolicyPage = () => {
           <p>
             Amrutam Pharmaceuticals Private Limited (“us”, “we”, or “Company”) is the author and publisher of the
             internet e-commerce portal <strong>www.amrutam.co.in</strong> (“Website”) and our App
-            (<strong>amrutam.global</strong>) Amrutam Home ("App") with privacy policy listed here:{' '}
+            (<strong>amrutam.global</strong>) Amrutam Home (App) with privacy policy listed here:{' '}
             <a
               href="https://amrutam.co.in/pages/amrutam-home-app-privacy-policy"
               className="text-blue-600 underline"
@@ -33,8 +33,8 @@ const PrivacyPolicyPage = () => {
           </p>
 
           <p>
-            If you do not agree to our terms, please do not use the Website or provide your information. If you're
-            using the Website on behalf of another entity, you confirm you’re authorized to accept this policy on
+            If you do not agree to our terms, please do not use the Website or provide your information. If you are
+            using the Website on behalf of another entity, you confirm you are authorized to accept this policy on
             their behalf.
           </p>
         </section>
@@ -117,3 +117,4 @@ const PrivacyPolicyPage = () => {
 };
 
 export default PrivacyPolicyPage;
+
