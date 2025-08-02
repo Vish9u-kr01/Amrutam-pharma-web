@@ -46,8 +46,8 @@ const TermsAndConditionsPage = () => {
         <ul className="list-disc pl-5 space-y-2">
           <li>Words in singular include plural; gender includes all genders.</li>
           <li>Headings are for reference and do not affect interpretation.</li>
-          <li>"Writing" includes electronic formats under the IT Act, 2000.</li>
-          <li>Terms like "you", "your" refer to the User.</li>
+          <li>Writing includes electronic formats under the IT Act, 2000.</li>
+          <li>Terms like you, your refer to the User.</li>
         </ul>
       </section>
 
@@ -70,7 +70,7 @@ const TermsAndConditionsPage = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold text-gray-700 mb-2">4. Products</h2>
         <p className="mb-2">
-          Products are offered on an "as available" basis and meant for personal use only.
+          Products are offered on an as available basis and meant for personal use only.
         </p>
         <p className="mb-2">
           Bulk orders or commercial resale may be restricted or canceled by the Company.
@@ -156,4 +156,5 @@ const TermsAndConditionsPage = () => {
 };
 
 export default TermsAndConditionsPage;
+
 
