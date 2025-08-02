@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
               </div>
 
               <blockquote className="text-gray-700 leading-relaxed italic">
-                "{testimonial.review}"
+                {testimonial.review}
               </blockquote>
             </div>
           ))}
@@ -90,3 +90,4 @@ export default function TestimonialsSection() {
     </section>
   );
 }
+
