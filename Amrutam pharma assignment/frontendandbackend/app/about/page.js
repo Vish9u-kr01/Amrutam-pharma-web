@@ -26,11 +26,11 @@ export default function AboutPage() {
         </p>
 
         <p>
-          With a strong foundation in Ayurveda and a commitment to sustainability and cruelty-free practices, Amrutam is more than a brand — it's a lifestyle movement. From skincare and haircare to nutrition and wellness, we offer handcrafted solutions for the modern individual.
+          With a strong foundation in Ayurveda and a commitment to sustainability and cruelty-free practices, Amrutam is more than a brand — its a lifestyle movement. From skincare and haircare to nutrition and wellness, we offer handcrafted solutions for the modern individual.
         </p>
 
         <p>
-          Over the years, we've grown into a thriving <span className="font-semibold text-[#c29459]">#AmrutamFamily</span>, connecting with thousands of customers, wellness practitioners, and doctors who believe in the holistic power of Ayurveda.
+          Over the years, we have grown into a thriving <span className="font-semibold text-[#c29459]">#AmrutamFamily</span>, connecting with thousands of customers, wellness practitioners, and doctors who believe in the holistic power of Ayurveda.
         </p>
 
         <p>
@@ -42,3 +42,4 @@ export default function AboutPage() {
     </>
   );
 }
+
