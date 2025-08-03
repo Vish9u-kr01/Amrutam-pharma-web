@@ -2,6 +2,7 @@
 
 import Header from '../components/Header';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function JoinNowPage() {
   const [formData, setFormData] = useState({
@@ -83,7 +84,9 @@ export default function JoinNowPage() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div className="space-y-8">
-              <img
+              <Image
+                height={400}  
+                width={400}
                 src="https://amrutam-ayurveda3.odoo.com/web/image/693-bffa4613/987456.webp"               
                 alt="Ayurvedic Consultation"
                 className="w-full rounded-2xl shadow-lg object-cover object-top"
@@ -312,3 +315,4 @@ export default function JoinNowPage() {
     </div>
   );
 }
+
