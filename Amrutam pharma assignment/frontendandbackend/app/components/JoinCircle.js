@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-
+import Image from 'next/image';
 export default function JoinCircleSection() {
   return (
     <section id="onboarding" className="py-12 md:py-20 bg-gradient-to-br from-yellow-50 to-orange-50">
@@ -91,7 +91,9 @@ export default function JoinCircleSection() {
                 }
               ].map(({ title, img }, i) => (
                 <div key={i} className="text-center">
-                  <img
+                  <Image
+                     height={160}
+                    width={160}
                     src={img}
                     alt={title}
                     className="w-full max-w-[160px] mx-auto rounded-2xl shadow-lg object-cover object-top"
@@ -115,4 +117,5 @@ export default function JoinCircleSection() {
     </section>
   );
 }
+
 
