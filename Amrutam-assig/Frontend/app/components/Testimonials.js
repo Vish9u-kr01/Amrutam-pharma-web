@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl p-8 shadow-lg hover:shadow-xl active:shadow-xl active:-translate-y-2 transition-all duration-300 transform hover:-translate-y-2"
+              className="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-2xl p-8 shadow-lg hover:shadow-xl  active:-translate-y-2 transition-all duration-300 transform hover:-translate-y-2"
             >
               <div className="flex items-start space-x-4 mb-6">
                 <div className="flex-shrink-0">
@@ -93,4 +93,5 @@ export default function TestimonialsSection() {
     </section>
   );
 }
+
 
