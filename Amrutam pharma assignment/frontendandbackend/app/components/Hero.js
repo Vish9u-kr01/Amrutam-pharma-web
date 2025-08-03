@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-
+import Image from 'next/image';
 export default function Hero() {
   return (
     <section 
@@ -51,7 +51,9 @@ export default function Hero() {
           {/* Right Image */}
           <div className="relative hidden sm:block">
             <div className="relative">
-              <img
+              <Image
+                height={600}
+                width={800}
                 src="https://readdy.ai/api/search-image?query=Three%20professional%20Ayurvedic%20healthcare%20practitioners%20standing%20confidently%2C%20diverse%20team%20of%20doctors%20in%20medical%20scrubs%20and%20white%20coats%2C%20warm%20friendly%20smiles%2C%20modern%20healthcare%20professionals%2C%20clean%20medical%20environment%2C%20one%20woman%20in%20teal%20scrubs%2C%20one%20man%20in%20blue%20scrubs%2C%20one%20man%20in%20white%20coat%20with%20stethoscope%2C%20professional%20medical%20photography%20with%20soft%20lighting&width=800&height=600&seq=doctors-team-001&orientation=landscape"
                 alt="Professional Ayurvedic Healthcare Team"
                 className="w-full h-auto rounded-2xl shadow-2xl object-cover object-top"
@@ -76,4 +78,5 @@ export default function Hero() {
     </section>
   );
 }
+
 
