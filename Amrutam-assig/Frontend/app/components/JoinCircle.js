@@ -21,7 +21,7 @@ export default function JoinCircleSection() {
             {[1, 2, 3, 4].map((step) => (
               <div
                 key={step}
-                className="rounded-2xl p-6 md:p-8 shadow-lg border border-green-100 hover:bg-green-600 transition-all duration-300 bg-white"
+                className="rounded-2xl p-6 md:p-8 shadow-lg border border-green-100 hover:bg-green-600 active:bg-green-600 transition-all duration-300 bg-white"
               >
                 <div className="flex items-start gap-4">
                   <div>
@@ -118,4 +118,5 @@ export default function JoinCircleSection() {
     </section>
   );
 }
+
 
