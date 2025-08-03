@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 export default function FeaturedSection() {
   const publications = [
@@ -29,7 +30,9 @@ export default function FeaturedSection() {
               key={index}
               className="flex items-center justify-center p-4 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow duration-300"
             >
-              <img
+              <Image
+                height={100}
+                width={200}
                 src={publication.logo}
                 alt={publication.name}
                 className="h-10 sm:h-12 w-auto max-w-full object-contain"
@@ -41,4 +44,5 @@ export default function FeaturedSection() {
     </section>
   );
 }
+
 
