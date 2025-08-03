@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -61,7 +62,9 @@ export default function TestimonialsSection() {
             >
               <div className="flex items-start space-x-4 mb-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
+                    height={64}
+                    width={64}
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-16 h-16 rounded-full object-cover object-top shadow-md"
@@ -90,4 +93,5 @@ export default function TestimonialsSection() {
     </section>
   );
 }
+
 
