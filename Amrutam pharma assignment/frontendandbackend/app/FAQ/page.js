@@ -1,7 +1,7 @@
 'use client';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
+import Image from 'next/image';
 
 import { useState } from 'react';
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
@@ -105,13 +105,15 @@ export default function FAQPage() {
           </div>
 
           <div className="flex space-x-4 mt-6">
-            <img src="/google-play-badge.png" alt="Google Play" className="h-12" />
-            <img src="/app-store-badge.png" alt="App Store" className="h-12" />
+            <Image width={130}  height={90} src="/google-play-badge.png" alt="Google Play" className="h-12" />
+            <Image width={130} height={90} src="/app-store-badge.png" alt="App Store" className="h-12" />
           </div>
         </div>
 
         <div className="flex justify-center">
-          <img
+          <Image
+             height={360}
+              width={360}
             src="/amrutam-app-demo.png"
             alt="Amrutam App Demo"
             className="w-120 h-90 rounded-xl shadow-lg"
@@ -123,3 +125,4 @@ export default function FAQPage() {
     </>
   );
 }
+
