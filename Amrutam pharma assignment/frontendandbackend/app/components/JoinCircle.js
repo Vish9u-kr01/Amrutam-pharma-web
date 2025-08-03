@@ -47,7 +47,7 @@ export default function JoinCircleSection() {
             {/* Top Image */}
             <div className="relative mb-10 md:mb-12">
               <div className="absolute inset-0 bg-gradient-to-r from-green-200/30 to-yellow-200/30 rounded-3xl blur-3xl"></div>
-              <img
+              <Image
                 src="/join-circle image.png"
                 width={400}
                 height={400}
@@ -117,5 +117,6 @@ export default function JoinCircleSection() {
     </section>
   );
 }
+
 
 
