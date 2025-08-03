@@ -117,7 +117,7 @@ export default function LetsConnect() {
 
           <button
             type="submit"
-            className="bg-green-800 text-white px-6 py-2 rounded hover:bg-green-700 transition w-full"
+            className="bg-green-800 text-white px-6 py-2 rounded hover:bg-green-700 active:bg-green-700  transition w-full"
           >
             Send Message
           </button>
@@ -126,4 +126,5 @@ export default function LetsConnect() {
     </div>
   );
 }
+
 
